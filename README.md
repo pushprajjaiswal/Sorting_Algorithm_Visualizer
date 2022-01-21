@@ -18,12 +18,8 @@
  
 
   
-- ## [Demo Link](https://dhruvpasricha.github.io/Sorting_Visualizer/) 
+- ## [Demo Link](https://pushprajjaiswal.github.io/Sorting_Visualizer/) 
 
 <hr>
-
-# Credits 
-- ### [Dhruv Pasricha](https://github.com/DhruvPasricha)
-- ### [Rahul Gandhi](https://github.com/RGTechno)
 
 <hr>
