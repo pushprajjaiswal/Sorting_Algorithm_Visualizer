@@ -1,0 +1,75 @@
+body {
+  background-color: #212529;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  zoom: 75%;
+  height: 100vh;
+}
+
+/* Navigation Bar */
+.container-fluid {
+  padding: 1% 2% 0 2%;
+  text-align: left;
+}
+
+/* Input Sliders */
+.range {
+  color: whitesmoke !important;
+}
+
+.appName {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.navItemsList {
+  margin-left: auto;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link,
+.newArray {
+  margin-right: 1rem;
+}
+
+.navDropdown {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Bars */
+.barsCon {
+  margin-top: 5%;
+  height: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.dummy {
+  height: 500px;
+  width: 0.1%;
+  display: inline-block;
+}
+
+.bar {
+  background-color: whitesmoke;
+  margin-right: 0.1%;
+  margin-left: 0.3%;
+  display: inline-block;
+  border-radius: 50px;
+  box-shadow: 3px 5px #888888;
+  bottom: 0px;
+}
+
+/* Sort Btn */
+.btn-lg {
+  font-size: 1.75rem;
+  border-radius: 50px;
+  box-shadow: 5px 3px #888888;
+  font-weight: bold;
+  width: 80%;
+  /* position: absolute;
+  right: 2%; */
+  margin-left: 10%;
+  margin-right: 10%;
+}

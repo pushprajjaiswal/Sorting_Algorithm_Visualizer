@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="" content="">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Sorting Visualizer</title>
+
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand appName" href="./index.html">Sorting Visualizer</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+                    <ul class="navbar-nav navItemsList">
+
+
+                        <li class="nav-item">
+                            <a class="nav-link newArray" aria-current="page" href="#">Generate New Array</a>
+                        </li>
+
+                        <li class="nav-item nav-link range">
+                            <span>Speed </span>
+                            <input type="range" min="75" max="750" value="500" id="speed">
+                        </li>
+                        <li class="nav-item nav-link range">
+                            <span>Size </span>
+                            <input type="range" min="25" max="60" value="40" id="size">
+
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">Bubble Sort</a>
+                            <ul class="dropdown-menu navDropdown" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Insertion Sort</a></li>
+                                <li><a class="dropdown-item" href="#">Selection Sort</a></li>
+                                <li><a class="dropdown-item" href="#">Heap Sort</a></li>
+                                <li><a class="dropdown-item" href="#">Quick Sort</a></li>
+                                <li><a class="dropdown-item" href="#">Merge Sort</a></li>
+
+                            </ul>
+                        </li>
+
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+
+
+    <!-- Bars -->
+    <div class="barsCon">
+
+
+    </div>
+
+    <!-- Sorting Button -->
+
+    <button class=" my-5 btn btn-outline-light rounded-pill btn-lg" id="sortBtn">Sort</button>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+    <!-- External JS -->
+    <script src="index.js"></script>
+
+</body>
+
+</html>
