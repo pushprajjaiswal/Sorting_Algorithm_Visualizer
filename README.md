@@ -1,6 +1,6 @@
 <hr>
 
-# Sorting Visualizer
+# Sorting Algorithm Visualizer
 
 <hr>
 
