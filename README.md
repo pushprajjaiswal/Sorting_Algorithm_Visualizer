@@ -18,7 +18,7 @@
  
 
   
-- ## [Demo Link](https://pushprajjaiswal.github.io/Sorting_Visualizer/) 
+- ## [Demo Link](https://pushprajjaiswal.github.io/Sorting_Algorithm_Visualizer/) 
 
 <hr>
 
